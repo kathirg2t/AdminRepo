@@ -1,0 +1,17 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Online shopping</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="/addCategory">Add Category</a></li>
+      <li><a href="/addProduct">Add Product</a></li>
+      <li><a href="/productList">List Product</a></li>
+      <li><a href="/categoryList">List Category</a></li>
+      <li><a href="/buyProducts">Buy Products</a></li>
+      <li><a href="/logout">Logout</a></li>
+    </ul>
+    <span style="float:right"><a href="/cartDetails">Cart : ${cartSize}</a></span>
+  </div>
+</nav>
